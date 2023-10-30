@@ -1,9 +1,10 @@
 # Most Streamed Spotify Songs 2023 Analysis
 ## Description:-
 ## About the Project:-
-Welcome to our Spotify Insights project! 🎶 Here, we delve into the heart of music, offering a detailed exploration of the hottest songs of 2023. Our dataset, a goldmine of musical information from Spotify, unveils the essence of each track, from beats per minute to danceability percentages.
+Welcome to our Spotify Insights project! 🎶 Here, we delve into the heart of music, offering a detailed exploration of the hottest songs of 2023. Our dataset, conatins musical information from Spotify, unveils the essence of each track, from beats per minute to danceability percentages.
 
-In this project, we meticulously calculate average streams per year, dissect streams by track and artist names, and analyze trends based on release dates. By scrutinizing the top songs, their danceability, valence, energy levels, and instrumental content, we unlock the secrets behind musical phenomena.🎵📊🔍
+This project not only explores the depths of 2023's chart-toppers but also leverages Python and the Spotify Web APIs.Here Python script is used that interacts with the Spotify Web API and a pandas DataFrame to retrieve track details including the cover URL for a list of tracks provided in an Excel file.Using a pandas DataFrame, we retrieve intricate track details, from beats and danceability to album cover
+In this project, we meticulously calculate average streams per year, dissect streams by track and artist names, and analyze trends based on release dates, top songs, their danceability, valence, energy levels, and instrumental content🎵📊🔍
 ### About the Dataset-
 The dataset for this project contains a comprehensive list of the most famous songs of 2023 as listed on Spotify. The dataset offers a wealth of features beyond what is typically available in similar datasets. It provides insights into each song's attributes, popularity, and presence on various music platforms. The dataset includes track name, artist(s) name, release date, Spotify playlists and charts, streaming statistics, Apple Music presence, Deezer presence, Shazam charts, and various audio features.
 ### Key Features of the Dataset:-
@@ -35,6 +36,8 @@ The dataset for this project contains a comprehensive list of the most famous so
 Power BI (Business Intelligence Tool) Power Query Editor DAX Language Data Modeling.
 ## Steps covered:
 > 🌐Imported data from MS Excel to Power BI
+
+> Adding Cover-URl column using Spotify Web API
 
 > 🪄Data transformation in Power Query editor
 
